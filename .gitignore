@@ -1,0 +1,7 @@
+build/*
+*.ll
+*.s
+*.o
+*.out
+ui/node_modules/
+ui/dist/

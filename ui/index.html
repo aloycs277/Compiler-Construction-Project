@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101820" />
+    <title>C Minor Compiler Lab</title>
+    <style>
+      body.file-open { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; box-sizing: border-box; background: #101820; color: #e9f0f3; font: 16px/1.6 "Segoe UI", Arial, sans-serif; }
+      body.file-open #root { max-width: 620px; padding: 32px; border: 1px solid #2b3c47; border-radius: 12px; background: #17232c; }
+      body.file-open h1 { margin-top: 0; color: #72e0ba; }
+      body.file-open code { color: #72e0ba; }
+      body.file-open a { color: #72e0ba; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === "file:") {
+        document.body.classList.add("file-open");
+        document.getElementById("root").innerHTML =
+          "<h1>C Minor Compiler Lab</h1>" +
+          "<p>This page needs the local compiler service; opening this HTML file directly cannot run compiler code.</p>" +
+          "<p>Open a terminal in the project folder and run:</p>" +
+          "<p><code>npm --prefix ui run dev</code></p>" +
+          "<p>Then open <a href=\"http://127.0.0.1:4173\">http://127.0.0.1:4173</a>.</p>" +
+          "<p>In the app, write C Minor in the editor and select <b>Run program</b>, or inspect compiler stages 1-7.</p>";
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
