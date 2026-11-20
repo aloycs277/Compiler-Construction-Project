@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # C Minor Compiler
 
 A student-owned compiler for the restricted C Minor language in the course SRS 1.0.
@@ -155,3 +156,6 @@ positive, negative, and malformed input. End-to-end Linux verification is still
 required before this project can be called SRS-complete: LLVM IR must be accepted
 by the selected `llc`, generated assembly must assemble/link, and execution results
 must match the normative examples. See [docs/STATUS.md](./docs/STATUS.md).
+=======
+# Compiler-Construction-Project
+>>>>>>> 2b24ff9295d2448dbce38fbd15e3d92ffafec63c
