@@ -5,3 +5,4 @@ build/*
 *.out
 ui/node_modules/
 ui/dist/
+.vite/
